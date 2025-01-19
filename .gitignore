@@ -1,0 +1,6 @@
+# All hiding files intead .gitignore
+.*
+!.gitignore
+
+# sql env
+sql/
