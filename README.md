@@ -7,3 +7,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## [DBUI](https://github.com/kristijanhusak/vim-dadbod-ui)
 About plugin and cool configuration: [video about DB(UI)](https://www.youtube.com/watch?v=SITIs6kAOoA&t)
+
+
+## [DOGE](https://github.com/kkoomen/vim-doge)
+Docstring for neovim (<Leader>d).
