@@ -41,7 +41,7 @@ vim.opt.fillchars = {
 
 if vim.g.neovide then
   vim.g.neovide_window_blurred = true
-  vim.g.neovide_transparency = 0.79
+  vim.g.neovide_transparency = 0.80
   vim.g.neovide_show_border = true
   vim.o.guifont = "Source Code Pro:h16"
   vim.g.neovide_cursor_vfx_mode = "railgun"

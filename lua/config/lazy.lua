@@ -15,6 +15,16 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+  {
+    "tpope/vim-dadbod",
+    dependencies = {
+      "kristijanhusak/vim-dadbod-ui",
+    },
+    config = function()
+      -- Отключение автоматического выполнения SQL при сохранении
+      vim.g.db_ui_execute_on_save = 0
+    end,
+  },
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
